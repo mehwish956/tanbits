@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.13" height="24.5" viewBox="0 0 25.13 24.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff4c06;
+      }
+    </style>
+  </defs>
+  <g id="fontisto:paper-plane" transform="translate(-3.453 -1.75)">
+    <g id="carbon:star-review" transform="translate(2.333)">
+      <path id="Vector" class="cls-1" d="M0,0H7V1.75H0Z" transform="translate(15.75 22.75)"/>
+      <path id="Vector-2" data-name="Vector" class="cls-1" d="M0,0H10.5V1.75H0Z" transform="translate(15.75 19.25)"/>
+      <path id="Vector-3" data-name="Vector" class="cls-1" d="M0,0H10.5V1.75H0Z" transform="translate(15.75 15.75)"/>
+      <path id="Vector-4" data-name="Vector" class="cls-1" d="M16.86,8.065,12.88,0,8.9,8.065,0,9.358l6.44,6.278L4.919,24.5l6.211-3.265V19.258L7.244,21.3l.921-5.369.156-.907-.659-.641-3.9-3.8L9.152,9.8l.91-.132.408-.825L12.88,3.954l2.411,4.885.408.825.91.132,6.522.949.249-1.733Z" transform="translate(1.12 1.75)"/>
+    </g>
+  </g>
+</svg>

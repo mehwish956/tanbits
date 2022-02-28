@@ -1,0 +1,12 @@
+<svg id="carbon:container-software" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff4c06;
+      }
+    </style>
+  </defs>
+  <path id="Vector" class="cls-1" d="M8,8H0V0H8ZM2,6H6V2H2Z" transform="translate(16)"/>
+  <path id="Vector-2" data-name="Vector" class="cls-1" d="M8,6V0H0V14H14V6ZM2,2H6V6H2ZM6,12H2V8H6Zm6,0H8V8h4Z" transform="translate(5 5)"/>
+  <path id="Vector-3" data-name="Vector" class="cls-1" d="M22,24H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H12V2H2V22H22V12h2V22a2,2,0,0,1-2,2Z"/>
+</svg>

@@ -1,0 +1,197 @@
+.At___footersection {
+  width: 100%;
+  background-image: linear-gradient(to right, #d4f8fe, #feeced);
+  padding: 5rem 0 2rem 0;
+}
+.At____Footer {
+  display: flex;
+  justify-content: start;
+  text-align: left;
+  padding: 0 10rem;
+}
+
+.Logo__footer h4 {
+  color: #032530;
+  text-decoration: none;
+  font: 20px Inter;
+  font-weight: 600;
+}
+.Logo__footer img {
+  width: 15%;
+}
+.Logo__footer ul {
+  list-style: none;
+}
+.Logo__footer ul li a {
+  color: #8c969a;
+  text-decoration: none;
+  font: 14px Inter;
+  font-weight: 500;
+  margin-top: 5rem;
+  letter-spacing: 0.5px;
+  transition: all 0.5s;
+  text-transform: capitalize;
+}
+.Logo__footer ul li .info {
+  color: #304953;
+  text-decoration: none;
+  font: 14px Inter;
+  font-weight: 600;
+  margin-top: 5rem;
+  letter-spacing: 0.5px;
+  transition: all 0.5s;
+  text-transform: capitalize;
+}
+.Logo__footer ul li a:hover {
+  color: #007ccc;
+}
+.Logo__footer p {
+  color: #afbec3;
+  text-decoration: none;
+  font: 14px Inter;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+}
+.icon___div {
+  width: 100%;
+  background-image: linear-gradient(to right, #feeced, #d4f8fe);
+  padding: 20px;
+  height: 80px;
+  margin-top: 2rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+}
+.icon___text {
+  color: #304953;
+  text-decoration: none;
+  font: 16px Inter;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+.icon___div ul {
+  list-style: none;
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 0px;
+  justify-content: end;
+  text-align: end;
+  position: absolute;
+  right: 2rem;
+}
+.icon___div ul li {
+  margin-right: 3rem;
+  margin-top: -1rem;
+}
+.Facebook {
+  animation: jumpInfinite 1.5s infinite;
+  position: absolute;
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-bottom: 0;
+  }
+  50% {
+    margin-bottom: 5px;
+  }
+  100% {
+    margin-bottom: 0;
+  }
+}
+.Linkedin {
+  animation: jumpInfinite 1.5s infinite;
+  position: absolute;
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 5px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+.Twitter {
+  animation: jumpInfinite 1.5s infinite;
+  position: absolute;
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 5px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .At____Footer {
+    padding: 0 3rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Logo__footer ul li a {
+    font: 12px Inter;
+  }
+  .icon___div {
+    justify-content: space-between;
+  }
+  .Logo__footer p {
+    margin-top: 1rem;
+  }
+  .icon___text {
+    color: #304953;
+    text-decoration: none;
+    font: 14px Inter;
+  }
+  .At____Footer {
+    padding: 0 10px;
+  }
+  .Logo__footer img {
+    width: 31%;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .Logo__footer img {
+    width: 18%;
+  }
+}
+@media only screen and (max-width: 578px) {
+  .At____Footer {
+    padding: 0 2rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .icon___div ul {
+    top: 4rem;
+    right: 0rem;
+  }
+  .icon___div {
+    height: 110px;
+    align-items: start;
+    justify-items: start;
+    justify-content: center;
+  }
+  .icon___div ul li {
+    margin-right: 7rem;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .At____Footer {
+    padding: 0 0rem;
+  }
+  .icon___div ul li {
+    margin-right: 6.25rem;
+  }
+}

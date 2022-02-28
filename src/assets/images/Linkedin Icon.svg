@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #032530;
+      }
+
+      .cls-2 {
+        fill: #032530;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Linkedin_Icon" data-name="Linkedin Icon" transform="translate(-1166 -5424)">
+    <g id="Rectangle" class="cls-1" transform="translate(1166 5424)">
+      <rect class="cls-3" width="36" height="36" rx="18"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="35" height="35" rx="17.5"/>
+    </g>
+    <g id="Group_14" data-name="Group 14">
+      <path id="Shape" class="cls-2" d="M2.769,8.308H0V0H2.769V8.308Z" transform="translate(1178 5439.692)"/>
+      <path id="Shape-2" data-name="Shape" class="cls-2" d="M1.376,2.769H1.361A1.325,1.325,0,0,1,0,1.384,1.332,1.332,0,0,1,1.393,0,1.328,1.328,0,0,1,2.769,1.384,1.333,1.333,0,0,1,1.376,2.769Z" transform="translate(1178 5435.077)"/>
+      <path id="Shape-3" data-name="Shape" class="cls-2" d="M8.307,8.308H5.586V3.965c0-1.091-.394-1.835-1.379-1.835a1.488,1.488,0,0,0-1.4.986,1.833,1.833,0,0,0-.09.658V8.308H0S.036.952,0,.191H2.722v1.15A2.705,2.705,0,0,1,5.174,0C6.965,0,8.308,1.16,8.308,3.654V8.308Z" transform="translate(1182.615 5439.692)"/>
+    </g>
+  </g>
+</svg>

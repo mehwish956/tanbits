@@ -1,0 +1,193 @@
+.At___servicesection {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin: 3rem 0;
+}
+.At___servicesection .At__service h6 {
+  color: #ff3700;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Inter;
+  text-transform: capitalize;
+}
+.At___servicesection .At__service h1 {
+  color: #1f414f;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: Inter;
+  margin-top: 6px;
+}
+.At___servicesection .At__service p {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #8fa4ab;
+  margin-top: 10px;
+}
+.At__servicediv {
+  width: 100%;
+  justify-content: center;
+  margin-top: 25px;
+  padding: 0 9rem;
+}
+.servicediv {
+  background-color: #ffffff;
+  width: 100%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 10%);
+  padding: 25px;
+  margin-right: 20px;
+  border-radius: 10px;
+  margin-top: 2rem;
+  transition: all 0.5s;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.servicediv1 {
+  background-color: #ffffff;
+  width: 100%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 10%);
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 2rem;
+  transition: all 0.5s;
+  cursor: pointer;
+  display: inline-block;
+}
+.servicediv:hover {
+  background-image: linear-gradient(to right, #d4f8fe, #feeced);
+}
+.servicediv1:hover {
+  background-image: linear-gradient(to right, #d4f8fe, #feeced);
+}
+
+.At__service {
+  position: relative;
+}
+.webimg {
+  width: 75px;
+  height: 75px;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, #d4f8fe, #feeced);
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  display: flex;
+}
+.servicediv:hover .webimg {
+  background-image: linear-gradient(to right, #fff, #fff);
+}
+.servicediv1:hover .webimg {
+  background-image: linear-gradient(to right, #fff, #fff);
+}
+.website___div {
+  margin-left: 2rem;
+}
+.At___servicesection .At__service .website___div h1 {
+  color: #032530;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Inter;
+}
+.website___div ul {
+  justify-content: start;
+  text-align: left;
+  position: relative;
+}
+.At___servicesection .At__service .website___div ul li {
+  color: #9baeb4;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: Inter;
+  letter-spacing: 0.5px;
+  list-style: none;
+  margin-left: 12px;
+}
+
+.At___servicesection .At__service .website___div ul li::before {
+  content: "";
+  height: 2px;
+  width: 5px;
+  background-color: #9baeb4;
+  z-index: 3;
+  position: absolute;
+  left: 0px;
+  margin-top: 11px;
+  z-index: 0;
+}
+@media only screen and (max-width: 1440px) {
+  .At__servicediv {
+    padding: 0 3rem;
+  }
+}
+@media only screen and (max-width: 1433px) {
+  .At___servicesection .At__service .website___div h1 {
+    font-size: 22px;
+  }
+  .At___servicesection .At__service .website___div ul li {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 1035px) {
+  .website___div {
+    margin-left: 1rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .website___div {
+    margin-left: 3px;
+  }
+}
+@media only screen and (max-width: 678px) {
+  .At___servicesection .At__service h1 {
+    color: #1f414f;
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 578px) {
+  .At__servicediv {
+    padding: 0 0rem;
+  }
+  .servicediv {
+    margin-right: 5px;
+  }
+  .servicediv1 {
+    margin-top: 1rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .servicediv {
+    margin-right: 0px;
+    padding: 15px;
+  }
+  .website___div {
+    margin-left: 9px;
+  }
+  .webimg {
+    width: 50px;
+    height: 50px;
+  }
+  .webimg img {
+    width: 38%;
+  }
+  .At___servicesection .At__service .website___div h1 {
+    font-size: 20px;
+  }
+  .At___servicesection .At__service .website___div ul li {
+    font-size: 14px;
+  }
+  .At___servicesection .At__service p {
+    padding: 0 5px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .At___servicesection .At__service .website___div h1 {
+    font-size: 17px;
+  }
+  .website___div {
+    margin-left: 7px;
+  }
+}

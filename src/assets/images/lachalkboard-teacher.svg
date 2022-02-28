@@ -1,0 +1,10 @@
+<svg id="la:chalkboard-teacher" xmlns="http://www.w3.org/2000/svg" width="26" height="20" viewBox="0 0 26 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff4c06;
+      }
+    </style>
+  </defs>
+  <path id="Vector" class="cls-1" d="M0,0V2H22V18H8v2H26V18H24V0ZM4,3A3.994,3.994,0,1,0,8,7,4.016,4.016,0,0,0,4,3Zm6,1V6h5V4Zm7,0V6h3V4ZM4,5A2,2,0,1,1,2,7,1.984,1.984,0,0,1,4,5Zm6,3v2H20V8ZM0,12v8H2V14H5v6H7V14.658L9.064,15.75a2,2,0,0,0,1.872,0v0l3.53-1.867-.933-1.77L10,13.982l-3.1-1.634A3,3,0,0,0,5.5,12Z"/>
+</svg>

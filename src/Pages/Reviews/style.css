@@ -1,0 +1,214 @@
+.At__reviewsection {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin: 7rem 0 3rem 0px;
+  width: 100%;
+  background-image: linear-gradient(to right, #d4f8fe, #feeced);
+  padding: 4rem;
+}
+.At__reviewsection .At__reviews h6 {
+  color: #ff3700;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Inter;
+  text-transform: capitalize;
+}
+.At__reviewsection .At__reviews h1 {
+  color: #1f414f;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: Inter;
+  margin-top: 6px;
+}
+.At__reviewsection .At__reviews p {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #8fa4ab;
+  margin-top: 10px;
+}
+.At__reviewsection .At__clientreview {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  padding: 3rem;
+}
+.At__reviewsection .At__clientreview .client__review {
+  width: 100%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 10%);
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 30px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: start;
+  text-align: left;
+  cursor: pointer;
+}
+.At__reviewsection .At__clientreview .client__review1 {
+  width: 100%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 10%);
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 30px;
+  display: flex;
+  justify-content: start;
+  text-align: left;
+  cursor: pointer;
+}
+.client__review {
+  display: flex;
+}
+.At__clientreview .client__review h1 {
+  color: #1f414f;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: Inter;
+  margin-bottom: 0px;
+}
+.At__clientreview .client__review h1 span {
+  color: #cde7f2;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: Inter;
+}
+.At__reviewsection .At__clientreview .client__review p {
+  color: #8fa4ab;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: Inter;
+  margin-bottom: 0px;
+}
+.At__clientreview .client__review1 h1 {
+  color: #1f414f;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: Inter;
+  margin-bottom: 0px;
+}
+.At__clientreview .client__review1 h1 span {
+  color: #cde7f2;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: Inter;
+}
+.At__reviewsection .At__clientreview .client__review1 p {
+  color: #8fa4ab;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: Inter;
+  margin-bottom: 0px;
+}
+.profile__img {
+  display: flex;
+  justify-items: start;
+  align-items: start;
+}
+.profile__img .one {
+  margin-left: 30px;
+}
+@media only screen and (max-width: 1440px) {
+  .At__reviewsection .At__clientreview {
+    padding: 3rem 0rem;
+    width: 102%;
+  }
+  .At__reviewsection .At__clientreview .client__review {
+    height: auto;
+  }
+  .At__reviewsection .At__clientreview .client__review1 {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 1433px) {
+  .At__reviewsection .At__reviews p {
+    font-size: 15px;
+  }
+  .At__reviewsection .At__clientreview .client__review p {
+    font-size: 15px;
+  }
+  .At__reviewsection .At__clientreview .client__review1 p {
+    font-size: 15px;
+  }
+  .At__clientreview .client__review h1 {
+    font-size: 20px;
+  }
+  .At__clientreview .client__review1 h1 {
+    font-size: 20px;
+  }
+  .At__clientreview .client__review1 h1 span {
+    font-size: 16px;
+  }
+  .At__clientreview .client__review h1 span {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1035px) {
+  .At__clientreview .client__review1 h1 span {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .At__reviewsection .At__clientreview {
+    width: 100%;
+  }
+  .At__reviewsection .At__clientreview .client__review {
+    margin-top: 1rem;
+  }
+  .At__reviewsection .At__clientreview .client__review1 {
+    margin-top: 1rem;
+  }
+}
+@media only screen and (max-width: 765px) {
+  br {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 678px) {
+  .At__reviewsection .At__reviews h1 {
+    font-size: 20px;
+  }
+  .profile__img .one {
+    margin-left: 14px;
+  }
+  .At__reviewsection .At__reviews h1 {
+    font-size: 17px;
+  }
+  .At__reviewsection .At__clientreview .client__review p {
+    font-size: 14px;
+  }
+  .At__reviewsection .At__clientreview {
+    width: 106%;
+  }
+}
+@media only screen and (max-width: 578px) {
+  .At__reviewsection {
+    padding: 2rem 1rem;
+  }
+  .At__reviewsection .At__clientreview {
+    padding: 3rem 1rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .At__reviewsection .At__clientreview .client__review {
+    padding: 20px 10px;
+    border-radius: 15px;
+    height: auto;
+  }
+  .At__reviewsection .At__reviews h1 {
+    font-size: 22px;
+  }
+
+  .At__reviewsection .At__clientreview .client__review1 {
+    padding: 20px 10px;
+    border-radius: 15px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .profile__img img {
+    display: none;
+  }
+  .At__reviewsection .At__clientreview {
+    padding: 3rem 0rem;
+  }
+}

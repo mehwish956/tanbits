@@ -1,0 +1,188 @@
+.At___Profoliosection {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+.At___Profoliosection .At__Profolio h6 {
+  color: #ff3700;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Inter;
+  text-transform: capitalize;
+}
+.At___Profoliosection .At__Profolio h1 {
+  color: #1f414f;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: Inter;
+  margin-top: 6px;
+}
+.At___Profoliosection .At__Profolio p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #8fa4ab;
+  margin-top: 10px;
+}
+.At___Profoliosection #Tabs {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+.react-tabs__tab {
+  background-color: #ffff;
+  color: #032530;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Inter;
+  border: none !important;
+  border-bottom: none !important;
+  padding: 8px 20px !important;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 10%);
+  border-radius: 5px;
+  margin: 20px 25px;
+}
+.react-tabs__tab-list {
+  border-bottom: none !important;
+  margin: 0px !important;
+  border-radius: 5px 5px 5px 5px;
+}
+.react-tabs__tab--selected {
+  background: #ff6315 !important;
+  color: #ffff !important;
+  border-radius: 5px 5px 5px 5px !important;
+}
+.Tab__img {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  padding: 0 13rem;
+}
+.Tab__img img {
+  margin-top: 3rem;
+  width: 100%;
+}
+.Explore___btn {
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  width: 145px;
+  height: 45px;
+  border: none;
+  text-align: center;
+  justify-items: center;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: Inter;
+  margin-right: 20px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #032530, #f441a5, #032530, #03a9f4);
+  background-size: 400%;
+  animation: jumpInfinite 1.5s infinite;
+  position: absolute;
+}
+.Explore___div {
+  position: relative;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.Explore___btn:hover {
+  animation: animate 8s linear infinite;
+  box-shadow: 0 4px 15px 0 rgba(85, 25, 25, 0.75);
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+
+.Explore___btn:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg, #03a9f4, #ff5600, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border-radius: 40px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.Explore___btn:hover:before {
+  filter: blur(20px);
+  opacity: 1;
+  animation: animate 8s linear infinite;
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 15px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .Tab__img {
+    padding: 0px 2rem;
+  }
+}
+@media only screen and (max-width: 1433px) {
+  .At___Profoliosection .At__Profolio p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .react-tabs__tab {
+    margin: 20px 5px;
+  }
+  .Tab__img {
+    padding: 0px 0rem;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .Tab__img {
+    padding: 0px 2rem;
+  }
+  .At___Profoliosection .At__Profolio p {
+    padding: 0 5px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .Tab__img {
+    padding: 0px 1rem;
+  }
+  .react-tabs__tab-list {
+    padding: 3px;
+  }
+  .At___Profoliosection .At__Profolio h1 {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .At___Profoliosection .At__Profolio h1 {
+    font-size: 22px;
+  }
+  .Tab__img {
+    padding: 0px 0rem;
+  }
+  .react-tabs__tab-list {
+    padding: 0px;
+  }
+}
